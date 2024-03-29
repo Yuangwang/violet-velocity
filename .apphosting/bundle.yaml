@@ -1,0 +1,7 @@
+runCommand: node .apphosting/server/entry.mjs
+neededDirs:
+  - .apphosting
+staticAssets:
+  - .apphosting/client
+wantsBackend: true
+serverDirectory: .apphosting/server
